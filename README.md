@@ -6,7 +6,7 @@ and authenticates to a downstream with a short-lived service credential.
 ## Files
 
 - `server.js` - HTTP server, listens on port 8080, health check at `/healthz`
-- `Dockerfile` - builds the image on node:20-alpine
+- `Dockerfile` - builds the image on node:26.12.1-alpine3.24
 
 ## Configuration
 
